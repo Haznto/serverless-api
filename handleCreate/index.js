@@ -23,7 +23,7 @@ exports.handler = async function(event, context) {
     }; 
     try {
         let obj = JSON.parse(event.body)
-        if(request === 'PUT /people') {
+        if(request === 'POST /people') {
         let newUser = await person.create({obj})
         }
         body = obj

@@ -10,6 +10,7 @@ https://b10usxf52f.execute-api.us-east-1.amazonaws.com
 ## What are the routes?
 
 /people
+
 /people/{id}
 
 ## What inputs do they require?
